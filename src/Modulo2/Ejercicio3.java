@@ -20,7 +20,17 @@ public class Ejercicio3 {
 		int capacidadCancha;
 		byte promedioGoles;
 
+	tipoDeDivision= 'a';
+	System.out.println("Tipo de division: " +tipoDeDivision);
 	
+	cantidadGolesXPartido=8;
+	System.out.println("Cantidad de Goles por Partido: "+cantidadGolesXPartido);
+	
+	capacidadCancha = 70000;
+	System.out.println("Capacidad de la Cancha: "+capacidadCancha);
+	
+	promedioGoles = 4;
+	System.out.println("Promedio de Goles: "+promedioGoles);
 
 	}
 
