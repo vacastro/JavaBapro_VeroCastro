@@ -9,10 +9,10 @@ public class Ejercicio2 {
 		byte bmin = -128;
 		byte bmax = 127;
 		// reemplazar el 0 por el valor que corresponda en todos los caso
-		short smin = Short.MIN_VALUE;
-		short smax = Short.MAX_VALUE;
-		int imax = Integer.MAX_VALUE;
-		int imin = Integer.MIN_VALUE;
+		short smin = Short.MIN_VALUE; // ((Math.pow(2,15))*(-1));
+		short smax = Short.MAX_VALUE;// (short)(smin-1)
+		int imax = Integer.MAX_VALUE;// ((Math.pow(2,31))*(-1));
+		int imin = Integer.MIN_VALUE;// (int)(imin-1)
 		long lmin = Long.MIN_VALUE;
 		long lmax = Long.MAX_VALUE;
 		System.out.println("tipo\t\tminimo\t\t\tmaximo");

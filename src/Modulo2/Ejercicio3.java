@@ -18,7 +18,7 @@ public class Ejercicio3 {
 		char tipoDeDivision;
 		byte cantidadGolesXPartido;
 		int capacidadCancha;
-		byte promedioGoles;
+		float promedioGoles;
 
 	tipoDeDivision= 'a';
 	System.out.println("Tipo de division: " +tipoDeDivision);
