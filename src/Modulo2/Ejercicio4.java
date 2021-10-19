@@ -6,16 +6,22 @@ public class Ejercicio4 {
 		// TODO Auto-generated method stub
 //		Completar con el tipo de dato que corresponda, se debe tener en cuenta que la suma de 2 bytes
 //		va a sobrepasar el byte.
-		byte b=10;
-		short s=20;
-		int i = 30;
-		long l= 40;
+		byte b=(byte)(Math.random()*Byte.MAX_VALUE);
+		short s=(short)(Math.random()*Short.MAX_VALUE);
+		int i = (int)(Math.random()*Integer.MAX_VALUE);
+		long l= (long)(Math.random()*Long.MAX_VALUE);
 		
-		short sumabb=(short) (b+b);
-		int sumabs=(int)(b+s);
-		long sumabi= (long)(b+i);
-		long sumaii=(long)(i+i);
-		long sumasl=(s+l);
+		int sumabb= b+b;
+		int sumabs=b+s;
+		int sumabi= b+i;
+		long sumaii=i+i;
+		long sumasl=s+l;
+		
+		System.out.println("b= "+b);
+		System.out.println("s= "+s);
+		System.out.println("i= "+i);
+		System.out.println("l= "+l);
+		System.out.println("\n");
 		
 		System.out.println("sumabb: " + sumabb);
 		System.out.println("sumabs: " + sumabs);

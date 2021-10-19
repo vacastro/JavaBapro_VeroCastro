@@ -91,14 +91,14 @@ public class Pantalla1 {
 		JLabel lblNewLabel = new JLabel("Promedio:");
 		lblNewLabel.setOpaque(true);
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 16));
-		lblNewLabel.setBounds(292, 125, 84, 20);
+		lblNewLabel.setBounds(224, 125, 84, 20);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JLabel lblResultado = new JLabel("");
 		lblResultado.setOpaque(true);
 		lblResultado.setBackground(Color.MAGENTA);
 		lblResultado.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		lblResultado.setBounds(292, 155, 88, 25);
+		lblResultado.setBounds(224, 154, 88, 25);
 		frame.getContentPane().add(lblResultado);
 		
 		JButton btnNewButton = new JButton("Calcular");
