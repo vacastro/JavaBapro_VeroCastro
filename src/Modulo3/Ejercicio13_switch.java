@@ -2,7 +2,7 @@ package Modulo3;
 
 import java.util.Scanner;
 
-public class Ejercicio3_switch {
+public class Ejercicio13_switch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
