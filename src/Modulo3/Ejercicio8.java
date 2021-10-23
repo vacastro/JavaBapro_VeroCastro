@@ -1,9 +1,8 @@
 package Modulo3;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 
 public class Ejercicio8 {
 	
@@ -33,6 +32,8 @@ public class Ejercicio8 {
 			System.out.println("el jugador ganador es el jugador 2 porque "+ listaJugadas[jugada2] + " mata a " + listaJugadas[jugada1]);
 		} else if (jugada1 == jugada2) {
 			System.out.println("empate porque ambos jugadores eligieron "+ listaJugadas[jugada2]);
+		}else {
+			System.out.println("la jugada seleccionada no existe");
 		}
 		
 	}
